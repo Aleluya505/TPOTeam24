@@ -1,5 +1,6 @@
 * {
     padding: 0;
+    background-color: 0;
 }
 
 body,
@@ -41,4 +42,24 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #04AA6D;
+}
+
+header {
+    background-color: #111;
+}
+
+.mySlides {
+    display: none
+}
+
+.w3-left,
+.w3-right,
+.w3-badge {
+    cursor: pointer;
+}
+
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0
 }
