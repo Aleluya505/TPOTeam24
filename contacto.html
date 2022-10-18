@@ -11,18 +11,61 @@
     <h1>CONTACTO</h1>
     <p>Completa el formulario y nos pondremos en contacto</p>
     
-    <form action="">
+<form action="" method="">
         <fieldset>
             <legend>Datos personales</legend>
 
-            <label for="name">Nombre</label>
+            <label for="name">Nombre: </label>
             <input type="text" name="name" id="name">
 
-            <label for="lastName">Apellido</label>
+            <label for="lastName">Apellido: </label>
             <input type="text" name="lastName" id="lastName">
 
+            <label for="dni">DNI: </label>
+            <input type="number" name="dni" id="dni">
+<br>
+            <label for="age">Edad: </label>
+            <input type="number" name="age" id="age" min="0">
+
+            <label for="birthdate">Fecha de Nacimiento: </label>
+            <input type="date" name="birthdate" id="birthdate">
+
+            <label for="genre">Genero: </label>
+            <input type="radio" value="Femenino" name="genre"> Femenino
+            <input type="radio" value="Masculino" name="genre"> Masculino
+            <input type="radio" value="Otro" name="genre" checked> Otro
 
         </fieldset>
+
+        <fieldset>
+            <legend>Datos de contacto</legend>
+
+            <label for="email">Mail: </label>
+            <input type="email" name="email" id="email">
+
+            <label for="phone">Telefono: </label>
+            <input type="number" name="phone" id="phone" maxlength="">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Mensaje</legend>
+
+            <label for="subject">Asunto: </label>
+            <input type="checkbox" name="subject" value="Administrativo"> Administrativo
+            <input type="checkbox" name="subject" value="Comercial"> Comercial
+            <input type="checkbox" name="subject" value="Laboral"> Laboral
+<br>
+            <label for="msj">Mensaje: </label>
+            <textarea name="msj" id="msj" cols="30" rows="10">"Escribí acá tu mensaje"</textarea>
+<br>
+            <label for="file">Archivos</label>
+            <input type="file" name="file" id="file" multiple>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+
     </form>
 </body>
 </html>
