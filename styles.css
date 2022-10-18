@@ -46,7 +46,7 @@ li a:hover:not(.active) {
     background-color: #04AA6D;
 }
 
-header {
+header, footer {
     background-color: #111;
 }
 
