@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./contacto.css">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>CONTACTO</h1>
-    <p>Completa el formulario y nos pondremos en contacto</p>
-    
-<form action="" method="">
+    <div id="CONTACTO">
+        <h1>CONTACTO</h1>
+        <p>Completa el formulario y nos pondremos en contacto</p>
+    </div>
+    <form action="" method="">
         <fieldset>
             <legend>Datos personales</legend>
 
@@ -23,14 +26,14 @@
 
             <label for="dni">DNI: </label>
             <input type="number" name="dni" id="dni">
-<br>
+            <br>
             <label for="age">Edad: </label>
             <input type="number" name="age" id="age" min="0">
 
             <label for="birthdate">Fecha de Nacimiento: </label>
             <input type="date" name="birthdate" id="birthdate">
 
-            <label for="genre">Genero: </label>
+            <label for="genre">Género: </label>
             <input type="radio" value="Femenino" name="genre"> Femenino
             <input type="radio" value="Masculino" name="genre"> Masculino
             <input type="radio" value="Otro" name="genre" checked> Otro
@@ -55,17 +58,18 @@
             <input type="checkbox" name="subject" value="Administrativo"> Administrativo
             <input type="checkbox" name="subject" value="Comercial"> Comercial
             <input type="checkbox" name="subject" value="Laboral"> Laboral
-<br>
+            <br>
             <label for="msj">Mensaje: </label>
             <textarea name="msj" id="msj" cols="30" rows="10">"Escribí acá tu mensaje"</textarea>
-<br>
+            <br>
             <label for="file">Archivos</label>
             <input type="file" name="file" id="file" multiple>
         </fieldset>
-
+        <br>
         <button type="submit">Enviar</button>
         <button type="reset">Borrar</button>
 
     </form>
 </body>
+
 </html>
