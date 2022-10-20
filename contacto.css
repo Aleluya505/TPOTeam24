@@ -46,6 +46,7 @@ p {
     font-weight: 500;
     letter-spacing: 4px;
     text-align: justify;
+    padding: 0;
 }
 
 .underline {

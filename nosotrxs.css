@@ -1,7 +1,26 @@
 * {
-    background-color: #fff;
+    background-color: rgb(238, 209, 243);
     font-style: italic;
-    border: black;
+    border: rgba(228, 210, 210, 0.85);
     margin: auto;
     padding: 0;
+}
+
+img {
+    max-width: 50%;
+    min-width: 50%;
+    object-fit: contain;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.img1 {
+    height: 400px;
+    width: 400px;
+}
+
+texto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
