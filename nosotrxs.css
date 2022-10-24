@@ -1,26 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 * {
-    background-color: rgb(238, 209, 243);
-    font-style: italic;
-    border: rgba(228, 210, 210, 0.85);
-    margin: auto;
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-img {
-    max-width: 50%;
-    min-width: 50%;
-    object-fit: contain;
+body {
+    font-family: "Poppins", sans-serif;
+    background: rgb(189, 172, 172)
+}
+
+.bannner {
+    width: auto;
+}
+
+.datos {
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px;
+    max-width: 1200px;
+    min-width: 100vw;
     display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 3.5em;
+    flex-wrap: wrap;
+}
+
+.datos_item {
+    background: #f2f2f2;
+    padding-bottom: 3em;
+    flex-basis: 200px;
+    max-width: 450px;
+    flex-grow: 1;
+}
+
+.datos_content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.datos_imagen {
+    width: 90%;
+    margin: auto;
+    background: rgb(239, 178, 242);
+    position: relative;
+    bottom: 2em;
 }
 
 .img1 {
-    height: 400px;
-    width: 400px;
+    width: 50%;
+    margin: 0 auto;
 }
 
-texto {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+.img2 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.card_texto {
+    margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 480px) {
+    img1 img2 datos banner {
+        width: 100%;
+    }
+}
+
+footer {
+    position: relative;
+    z-index: -2;
+    height: 270px;
+    background: rgb(10, 8, 8);
+}
+
+.content {
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+    max-width: 960px;
+    padding: 0 50px;
 }

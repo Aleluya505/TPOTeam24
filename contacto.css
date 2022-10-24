@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 html {
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Montserrat';
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -20,7 +20,7 @@ form {
 }
 
 #container {
-    border: solid 3px #474544;
+    border: solid 3px #a45099;
     max-width: 768px;
     margin: 60px auto;
     position: relative;
@@ -32,7 +32,7 @@ form {
 }
 
 h1 {
-    color: #474544;
+    color: #200e07;
     font-size: 32px;
     font-weight: 700;
     letter-spacing: 7px;
@@ -41,12 +41,13 @@ h1 {
 }
 
 p {
-    color: #474544;
+    color: #271024;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 4px;
     text-align: justify;
     padding: 0;
+    text-align: center;
 }
 
 .underline {
