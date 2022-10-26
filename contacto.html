@@ -15,7 +15,7 @@
         <h1>CONTACTO</h1>
         <p>Completa el formulario y nos pondremos en contacto</p>
     </div>
-    <form action="" method="">
+    <form action="https://formspree.io/f/xdojwddk" method="POST" id="form" class="form">
         <fieldset>
             <legend>Datos personales</legend>
 
@@ -81,6 +81,30 @@
      
         </script>
     </form>
+    <!-- API DE RESPUESTA POST ENVIO DE DATOS -->
+    <script>
+        const $form = document.querySelector("#form")
+    
+        $form.addEventListener("submit", handleSubmit)
+    
+       async function handleSubmit (event) {
+            event.preventDefault() /* para que no salga de la pagina*/
+    
+            const form = new FormData(this)
+    
+            const response = await fetch(this.action, {
+                method: this.method,
+                body: form,
+                headers: {
+                'Accept': 'application/json'
+                }
+               })
+               if (response.ok) {
+                this.reset()
+                alert("Gracias por contactarnos, te escribiremos pronto :)")
+               }
+               }
+    </script>
 </body>
 
 </html>
