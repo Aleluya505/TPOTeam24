@@ -21,6 +21,7 @@
         padding: 0;
         box-sizing: border-box;
         text-decoration: none;
+    
 
     }
   
@@ -104,7 +105,7 @@ main>aside{
 }
 
    main footer{
-    border: 3px red solid;
+    border: 3px rgb(17, 16, 16) solid;
     min-height: 50px;
     margin: 0.5rem;
     min-width: 400px;
@@ -119,8 +120,8 @@ main>aside{
     min-height: 20px;
 
 }
-.link { color: #0f0e0e; } /* CSS link color (red) */
-.link:hover { color: #131413; } /* CSS link hover (green) */
+.link { color: #0f0e0e; } /* CSS link color (black) */
+.link:hover { color: #131413; } /* CSS link hover (black) */
 
 
     /* tipografias */
