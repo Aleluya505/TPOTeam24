@@ -86,7 +86,7 @@ main{
 }
 /* em main y div se lo llama como padre e hijo */
 main>div{
-    border: 2px #0e0e0e;
+    border: none;
      min-height: 180px;
     margin: 0.5rem;
     height: auto;
@@ -95,7 +95,7 @@ main>div{
 
 }
 main>aside{
-    border: 2px #0e0e0e;
+    border: none;
      min-height: 180px;
     min-width: 25%;
      margin: 0.5rem;
@@ -104,24 +104,36 @@ main>aside{
 
 }
 
-   main footer{
+   main {
     border: 3px rgb(17, 16, 16) solid;
     min-height: 50px;
     margin: 0.5rem;
     min-width: 400px;
    }
 
+.col-right{
+    float: left;
+    width: 65%;
+}
+.col-left{
+    float: right;
+    width: 25%;
+}
+
+
 .seccion{
     min-width: 50px;
     margin: 0.5rem;
+    text-decoration: none;
 }
 .seccion article{
     margin: 0.5rem;
     min-height: 20px;
+    text-decoration: none;
 
 }
 .link { color: #0f0e0e; } /* CSS link color (black) */
-.link:hover { color: #131413; } /* CSS link hover (black) */
+.link:hover { color: #444644; } /* CSS link hover (black) */
 
 
     /* tipografias */
