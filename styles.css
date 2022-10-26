@@ -91,7 +91,6 @@ main>div{
     margin: 0.5rem;
     height: auto;
     float: left;
-    width: 65%;
 
 }
 main>aside{
@@ -105,7 +104,7 @@ main>aside{
 }
 
    main {
-    border: 3px rgb(17, 16, 16) solid;
+    border: none;
     min-height: 50px;
     margin: 0.5rem;
     min-width: 400px;
@@ -135,7 +134,29 @@ main>aside{
 .link { color: #0f0e0e; } /* CSS link color (black) */
 .link:hover { color: #444644; } /* CSS link hover (black) */
 
+/* imagenes */
+.img{
+    width: auto;
+}
 
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0e0e0e;
+    text-align: center;
+    font-style: negrita;
+    font-size: 14px;
+
+
+
+}
+
+
+.subtitulo{
+box-sizing: border-box;
+box-shadow: #292c2f;
+
+
+}
     /* tipografias */
     .fa-brands{
         font-size: 30px;
@@ -154,17 +175,6 @@ main>aside{
     }
 
 
-    
-    section {
-      width: 100%;
-      display: inline-block;
-      background: #ccc;
-      height: 60vh;
-      text-align: center;
-      font-size: 22px;
-      font-weight: 700;
-      text-decoration: underline;
-    }
     
     .footer-distributed {
       background-color: #292c2f;
