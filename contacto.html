@@ -7,7 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./contacto.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <title>Team24</title>
+    <script src="https://kit.fontawesome.com/ce387321b0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,600&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Contactanos</title>
 </head>
 
 <body>
@@ -27,8 +31,7 @@
 
             <label for="dni">DNI: </label>
             <input type="number" name="dni" id="dni">
-            <br>
-            <br>
+           
             <label for="age">Edad: </label>
             <input type="number" name="age" id="age" min="0">
 
@@ -60,18 +63,15 @@
             <input type="checkbox" name="subject" value="Administrativo"> Administrativo
             <input type="checkbox" name="subject" value="Comercial"> Comercial
             <input type="checkbox" name="subject" value="Laboral"> Laboral
-            <br>
-            <br>
+           
             <label for="msj">Mensaje: </label>
             <textarea name="msj" id="msj" cols="50" rows="15"> "Escribí acá tu mensaje"</textarea>
-            <br>
-            <br>
+          
             <label for="file">Archivos</label>
-            <br>
             <input type="file" name="file" id="file" multiple>
 
         </fieldset>
-        <br>
+     
         <button type="submit">Enviar</button>
         <button type="reset">Borrar</button>
         <script>
@@ -81,6 +81,31 @@
      
         </script>
     </form>
+    
+    <section>
+        <footer class="footer-distributed">
+                <div class="footer-right">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+                </div>
+                <div class="footer-left">
+                    <p class="footer-links">
+                        <a class="link-1" href="/index.html">Home</a>
+    
+                        <a href="/criticas.html">Criticas</a>
+    
+                        <a href="/nosotrxs.html">Quienes somos</a>
+    
+                        <a href="./contacto.html">Contacto</a>
+    
+                        <a href="./index.html">Chusmea x aca</a>
+                    </p>
+                    <p>Team 24 para Codo a Codo Comisión 22538, 2022</p>
+                </div>
+    </section>
+    
     <!-- API DE RESPUESTA POST ENVIO DE DATOS -->
     <script>
         const $form = document.querySelector("#form")
