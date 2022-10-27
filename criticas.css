@@ -2,10 +2,13 @@
 
 
 *{
-    background-color: antiquewhite;
-    padding: 0;
+ padding: 0;
 
 }
+footer{
+  background: #33383b;
+}
+
 header{
     width: 100%;
     padding: 40px;
@@ -78,16 +81,9 @@ footer nav {
 
 }
 
-
-
-
-
-
-
-
 /* queris */
  @media (max-width: 3200px) {
-    header  {
+    header body footer  {
       height: 80px;
     }
 }
@@ -144,7 +140,7 @@ footer nav {
             display: inline-block;
             width: 35px;
             height: 35px;
-            background-color: #33383b;
+            background-color: #0a0b0b;
             border-radius: 2px;
             font-size: 20px;
             color: #ffffff;
