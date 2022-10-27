@@ -55,11 +55,6 @@ label {
     position: relative;
 }
 
-form {
-    padding: 37.5px;
-    margin: 50px 0;
-}
-
 h1 {
     color: #200e07;
     font-size: 32px;
@@ -83,26 +78,6 @@ p {
     border-bottom: solid 3px #474544;
     margin: -0.512em;
     width: 80px;
-}
-
-.fa-brands{
-    font-size: 30px;
-    color: black;
-}
-@media (max-width: 480px) {
-    body header footer {
-        width: 100%;
-    }
-@media (max-width:800px) {
-        body header footer{
-            width: auto;
-        }
-    }
-}
-@media (max-width:2000px) {
-    body header footer{
-        width: auto;
-    }
 }
 footer {
     position: relative;
@@ -208,3 +183,4 @@ footer {
       line-height: 1.8;
     }
   }
+
