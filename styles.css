@@ -112,27 +112,22 @@ main>aside{
     min-width: 25%;
      margin: 0.5rem;
     float: left;
-    width: auto;
 
 }
-
    main {
     border: none;
     min-height: 50px;
     margin: 0.5rem;
     min-width: 400px;
    }
-
 .col-right{
     float: left;
     width: 65%;
 }
 .col-left{
     float: right;
-    width: 25%;
+    width: auto;  
 }
-
-
 .seccion{
     min-width: 50px;
     margin: 0.5rem;
@@ -142,27 +137,21 @@ main>aside{
     margin: 0.5rem;
     min-height: 20px;
     text-decoration: none;
-
 }
-.link { color: #0f0e0e; } /* CSS link color (black) */
-.link:hover { color: #444644; } /* CSS link hover (black) */
 
 /* imagenes */
 .img{
     width: auto;
 }
 
+/* textos y tipograf */
 .texto .txt{
     font-family: Arial, Helvetica, sans-serif;
     color: #0e0e0e;
     text-align: center;
     font-style: negrita;
     font-size: 14px;
-
-
-
 }
-
 
 .subtitulo {
         box-sizing: content-box;
@@ -172,12 +161,9 @@ main>aside{
         font-size: 40px; 
         COLOR: #0c0c0c; 
         text-shadow: 0px 0px 6px #e6b3f0;
-        }
-
-
- 
-
- 
+}
+.link { color: #0f0e0e; } 
+.link:hover { color: #444644; } 
 
     /* tipografias */
     .fa-brands{
