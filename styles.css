@@ -1,18 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
        
-       @media (max-width: 3200px) {
+       @media (max-width: 1920px) {
         header body footer {
           height: 80px;
         }
     }
-        @media (max-width: 3400px) {
+        @media (max-width: 700px) {
              header body footer {
               margin: auto;
               transition: 0.2s;
             }}
 
-            @media (max-width: 760px ) {
+            @media (min-width: 360px ) {
             header body footer{
                 margin: auto;
                 height: 100px;
@@ -36,7 +36,7 @@
     }
 
     /* Header */
-    header nav{
+    header {
         width: 100%;
         padding: 40px;
         color: rgb(237, 193, 239);
@@ -66,7 +66,7 @@
     }
     nav ul li{
         display: inline-block;
-        padding: 1px;
+        padding: 30px;
     }
     ul li a{
         color: rgb(20, 18, 20);
@@ -145,10 +145,15 @@ main>aside{
 }
 
 /* textos y tipograf */
+.h1 {
+  border-style: solid;
+  text-align:center;
+
+}
 .texto .txt{
     font-family: Arial, Helvetica, sans-serif;
     color: #0e0e0e;
-    text-align: center;
+    text-align: center auto;
     font-style: negrita;
     font-size: 14px;
 }
@@ -170,6 +175,9 @@ main>aside{
         font-size: 30px;
         color: black;
     }
+
+/*footer*/
+
     footer{
         box-sizing: border-box;
 

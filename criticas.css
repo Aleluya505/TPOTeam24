@@ -36,7 +36,7 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    padding: 20px;
+    padding: 30px;
 }
 ul li a{
     color: rgb(20, 18, 20);
@@ -64,7 +64,7 @@ footer nav {
 }
 
 .texto {
-    margin: 10%;
+    margin: 5%;
     padding: auto;
     font-family: 'Poppins', sans-serif, bold ;
     font-size: 20px;
@@ -82,18 +82,18 @@ footer nav {
 }
 
 /* queris */
- @media (max-width: 3200px) {
+ @media (max-width: 1920px) {
     header body footer  {
       height: 80px;
     }
 }
-    @media (max-width: 3400px) {
+    @media (max-width: 700px) {
          header body footer {
           margin: auto;
           transition: 0.2s;
         }}
 
- @media (max-width: 760px ) {
+ @media (min-width: 360px ) {
         header body footer{
             margin: auto;
             height: 100px;
